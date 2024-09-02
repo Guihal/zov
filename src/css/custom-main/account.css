@@ -1,0 +1,58 @@
+.account__main {
+  width: 100%;
+  border-bottom: #D9D9D9 1px solid;
+  padding-bottom: 34px;
+  margin-bottom: 36px;
+}
+.account__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 106%;
+  color: var(--black-20);
+  margin-bottom: 20px;
+}
+.account__company {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 117%;
+  text-transform: uppercase;
+  color: var(--black-10);
+  margin-bottom: 12px;
+}
+.account__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  color: var(--black-10);
+}
+.account__position {
+  margin-bottom: 40px;
+}
+.account__number {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--black-10);
+}
+.account__number-title {
+  margin-bottom: 8px;
+}
+.account__icons-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.account__item {
+  display: flex;
+  gap: 12px;
+  max-width: 340px;
+}
+
+.woocommerce-MyAccount-content p,
+.wd-my-account-links {
+  display: none;
+}
+
+.overflow-vis {
+  overflow: visible;
+}/*# sourceMappingURL=account.css.map */

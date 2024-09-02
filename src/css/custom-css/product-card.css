@@ -1,0 +1,7 @@
+.product-template-default .woocommerce-product-gallery {
+  flex-direction: row-reverse;
+}
+
+#mainimg {
+  pointer-events: none;
+}

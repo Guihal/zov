@@ -1,0 +1,177 @@
+.account {
+    &__main {
+        width: 100%;
+        border-bottom: #D9D9D9 1px solid;
+        padding-bottom: 34px;
+        margin-bottom: 36px;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 106%;
+        color: var(--black-20);
+        margin-bottom: 20px;
+    }
+
+    &__company {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 117%;
+        text-transform: uppercase;
+        color: var(--black-10);
+        margin-bottom: 12px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 133%;
+        color: var(--black-10);
+    }
+
+    &__position {
+        margin-bottom: 40px;
+    }
+
+    &__number {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 143%;
+        color: var(--black-10);
+
+        &-title {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__icons-details {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 64px;
+    }
+
+    &__item {
+        display: flex;
+        gap: 12px;
+        max-width: 340px;
+
+        path {
+            transition: all 0.3s;
+        }
+
+        @media (hover: hover) {
+            &:hover {
+                path {
+                    fill: var(--black-10);
+                }
+            }
+
+        }
+
+        &:active {
+            path {
+                fill: var(--main---50) !important;
+            }
+        }
+    }
+
+    &__btns {
+        display: flex;
+        gap: 8px;
+
+        a {
+            width: 208px;
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+            line-height: 50%;
+        }
+
+        .edit-btn {
+            border: 1px solid var(--grey-70);
+            border-radius: 2px;
+            background: transparent;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 112%;
+            text-transform: uppercase;
+            color: var(--black-25);
+
+            &:active {
+                border: 1px solid var(--grey-60);
+                background: var(--grey---92);
+            }
+
+            @media (hover:hover) {
+                &:hover {
+                    border: 1px solid var(--grey-60);
+                    background: var(--grey---92);
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        &__main {
+            padding-bottom: 16px;
+            margin-bottom: 40px;
+        }
+
+        &__btns {
+            flex-direction: column;
+            margin-bottom: -30px;
+
+            a {
+                width: 100%;
+            }
+        }
+
+        &__title {
+            margin-bottom: 24px;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 114%;
+        }
+
+        &__text {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 133%;
+        }
+
+        &__position {
+            margin-bottom: 36px;
+        }
+
+        &__number {
+
+
+            &-title {}
+        }
+
+        &__icons-details {
+            margin-bottom: 74px;
+        }
+
+        &__item {}
+    }
+}
+
+.overflow-vis {
+    overflow: visible !important;
+}
+
+.woocommerce-EditAccountForm {
+    margin-bottom: 40px;
+}
+
+.woocommerce-EditAccountForm .woocommerce-Button {
+    height: 56px;
+    width: 208px;
+    font-size: 16px;
+}

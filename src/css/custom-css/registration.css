@@ -1,0 +1,246 @@
+.very-black-btn {
+    width: calc(50% - 4px);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 112%;
+    text-transform: uppercase;
+    color: #FAFAFA;
+    border-radius: 2px;
+    padding: 6px 16px;
+    background: #333333;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height: 56px;
+    border: 1px solid#FAFAFA;
+}
+
+@media (hover: hover) {
+    .very-black-btn:hover {
+        background: #121212;
+        color: #FAFAFA;
+    }
+}
+
+.very-black-btn:active {
+    background: #7F7D58;
+    color: #FAFAFA;
+}
+
+#registration_popup .white-btn {
+    width: 100%;
+}
+
+#registration_popup .popup__wrapper,
+#contact .popup__wrapper {
+    max-width: 640px;
+}
+
+#registration_popup .popup__title {
+    margin-bottom: 16px;
+}
+
+.form-registration {
+    margin-top: 36px;
+    max-width: 640px;
+    gap: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 44px;
+}
+
+.form-registration input {
+    text-align: start;
+}
+
+
+.form-registration .form-row {
+    margin: 0;
+    gap: 8px;
+}
+
+.form-registration>.text {
+    margin-top: 38px;
+    margin-bottom: 8px;
+}
+
+.text--mrgbtm {
+    margin-bottom: 36px;
+}
+
+.form-registration .error {
+    margin-left: calc(50% + 4px);
+}
+
+.registration__checkbox-con {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    margin-top: 42px;
+}
+
+.registration .container>.text {
+    max-width: 500px;
+}
+
+.registration .title {
+    text-transform: uppercase;
+}
+
+.star {
+    position: relative;
+}
+
+.star:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -13px;
+    width: 10px;
+    height: 10px;
+    background: url(http://zuchelkueche.com/wp-content/themes/woodmart/images/requered.png);
+    background-size: 10px 10px;
+    background-position: center;
+}
+
+.mini-mrg {
+    margin-bottom: 8px !important;
+}
+
+.text-mini {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 143%;
+    color: #595959;
+}
+
+.iti input {
+    padding-left: 52px !important;
+}
+
+.highlight {
+    border: #E2838F 1px solid !important;
+    color: #1A1A1A !important;
+}
+
+.highlight::-webkit-input-placeholder {
+    color: #1A1A1A !important;
+}
+
+.highlight::-moz-placeholder {
+    color: #1A1A1A !important;
+}
+
+.highlight:-ms-input-placeholder {
+    color: #1A1A1A !important;
+}
+
+.highlight::-ms-input-placeholder {
+    color: #1A1A1A !important;
+}
+
+.highlight::placeholder {
+    color: #1A1A1A !important;
+}
+
+.registration .text-mini {
+    max-width: 500px;
+}
+
+.text-mini a {
+    font-size: 14px;
+    line-height: 143%;
+    font-weight: 500;
+    color: #4B7BEC;
+}
+
+.registration__checkbox {
+    cursor: pointer;
+    border: 1px solid #595959;
+    width: 18px;
+    height: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 36px;
+    min-width: 18px;
+}
+
+.registration__checkbox svg {
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.registration__checkbox.active svg {
+    opacity: 1;
+}
+
+.form-registration .error {
+    display: none;
+}
+
+.registration__checkbox {
+    border: 1px solid #595959;
+}
+
+.registration__checkbox input {
+    display: none;
+}
+
+
+.error-form {
+    display: none;
+    margin-top: 10px;
+    color: #E2838F;
+}
+
+
+@media screen and (max-width: 640px) {
+    #registration_popup .popup__text {
+        margin-bottom: 96px;
+    }
+
+    .registration .popup__text {
+        margin-bottom: 56px;
+    }
+
+    .form-registration .form-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form-registration .very-black-btn {
+        width: 100%;
+    }
+
+    .registration .container>.text {
+        display: none;
+    }
+}
